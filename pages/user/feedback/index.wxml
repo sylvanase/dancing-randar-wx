@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="wrap bg-fff">
+        <view class="title">我要反馈</view>
+        <view class="text">
+            <textarea bindinput="wordCount" placeholder="本平台为用户提供最近的舞房，有好的建议可以随时和我们说。" placeholder-class="placeholder" placeholder-style="line-height: 45rpx;" maxlength="300"></textarea>
+        </view>
+    </view>
+    <button class="button" bindtap="submit" disabled="{{ disabled }}">提交</button>
+</view>

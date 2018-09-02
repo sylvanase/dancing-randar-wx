@@ -1,0 +1,53 @@
+<!--舞房详情-->
+<view class="container">
+    <view class="bg-fff" style="margin-bottom: 15rpx;">
+        <!-- 舞房封面 -->
+        <view class="cover">
+            <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+        </view>
+        <view class="title fc-333">
+            XX街舞工作室
+        </view>
+        <view class="address fc-333">
+            <i class="iconfont icon-location fc-ac"></i>舞房地址 <!-- <button type="default" size="mini" bindtap="gps">导航</button> -->
+        </view>
+        <view class="info">
+            <view class="left">
+                <view class="time">
+                    <i class="iconfont icon-more fc-ac"></i><span class="fc-333">营业时间: </span><span class="fc-666">9:00 - 12:00</span>
+                </view>
+                <view class="kind">
+                    <i class="iconfont icon-unfavourite fc-ac"></i><span class="fc-333">主要舞种: </span><span class="fc-666">hip-hop</span>
+                </view>
+            </view>
+            <view class="right" bindtap="makeCall">
+                <i class="iconfont icon-call fc-999"></i>
+            </view> 
+            
+        </view>
+    </view>
+    <view class="bg-fff" style="margin-bottom: 15rpx;padding-top:0.5rpx;">
+        <view class="title">
+            舞房介绍
+        </view>
+        <view class="des fc-888">
+            这是一段很长的文字用于介绍舞房的信息。这是一段很长的文字用于介绍舞房的信息。这是一段很长的文字用于介绍舞房的信息。这是一段很长的文字用于介绍舞房的信息。这是一段很长的文字用于介绍舞房的信息。这是一段很长的文字用于介绍舞房的信息。这是一段很长的文字用于介绍舞房的信息。这是一段很长的文字用于介绍舞房的信息。这是一段很长的文字用于介绍舞房的信息。
+        </view>
+    </view>
+    
+    <!-- 舞房图片 -->
+    <view class="bg-fff" style="margin-bottom: 15rpx;padding-top:0.5rpx;">
+        <view class="title">
+            舞房展示
+        </view>
+        <view class="pic-list">
+            <!-- 图片条目 -->
+            <view class="item" >
+                <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            </view>
+            <view class="item" >
+                <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            </view>
+        </view>
+    </view>
+</view>

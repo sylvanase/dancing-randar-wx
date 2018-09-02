@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="container">
+    <!--  轮播图 -->
+    <swiper class="swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image src="{{item}}" class="swiper-image"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <!-- 推荐商家 -->
+    <view class="recommend-shop fc-333">
+        推荐商家
+    </view>
+    <!-- 舞房列表 -->
+    <view class="room-list">
+        <!-- 舞房条目 -->
+        <view class="item" bindtap="linkToDetail" data-id="1">
+            <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            <view class="info">
+                <view class="name fc-333 text-ellipsis">舞房名称</view>
+                <view class="kind fc-999 text-ellipsis">舞房种类</view>
+                <view class="address fc-999 text-ellipsis">地址</view>
+                <view class="distance fc-333">距离</view>
+            </view>
+        </view>
+    </view>
+    <!-- 底部tab -->
+    <view class="foot-tab">
+        <view class="left">
+            <i class="iconfont icon-location"></i>
+        </view>
+        <view class="right" bindtap="linkToUser">
+            <i class="iconfont icon-user"></i>
+        </view>
+    </view> 
+    <!--<view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <block wx:else>
+            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+    <view class="usermotto">
+        <text class="user-motto">{{motto}}</text>
+    </view>-->
+</view>

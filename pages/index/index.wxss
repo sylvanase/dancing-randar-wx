@@ -1,0 +1,96 @@
+.swiper-image{
+  width: 100%;
+  height: 297rpx;
+}
+
+.recommend-shop{
+  text-align: center;
+  font-size: 33rpx;
+  margin: 30rpx auto 34rpx;
+  line-height: 1;
+  position: relative;
+}
+
+.recommend-shop:before{
+  content: "";
+  display: block;
+  position: absolute;
+  left: 190rpx;
+  top:  15rpx;
+  height: 1rpx;
+  width: 110rpx;
+  background-color: #999;
+}
+
+.recommend-shop:after{
+  content: "";
+  display: block;
+  position: absolute;
+  right: 190rpx;
+  top:  15rpx;
+  height: 1rpx;
+  width: 110rpx;
+  background-color: #999;
+}
+
+.room-list{
+  background-color: #fff;
+}
+
+.room-list .item{
+  border-bottom: 1rpx solid #ccc;
+  padding: 23rpx 16rpx 19rpx;
+  position: relative;
+}
+
+.item image{
+  width: 149rpx;
+  height: 149rpx;
+  border-radius: 14rpx;
+  float: left;
+} 
+
+.item .info{
+  padding-left: 167rpx;
+}
+
+.item .name{
+  font-size: 30rpx;
+  margin-top: 12rpx;
+}
+
+.item .kind{
+  margin-top: 20rpx;
+  font-size: 22rpx;
+}
+
+.item .address{
+  margin-top: 40rpx;
+  font-size: 25rpx;
+}
+
+.item .distance{
+  font-size: 23rpx;
+  position: absolute;
+  right: 16rpx;
+  bottom: 19rpx;
+}
+
+.foot-tab{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 19rpx 0 24rpx;
+}
+
+.foot-tab view{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.foot-tab view i{
+  font-size: 62rpx;
+}

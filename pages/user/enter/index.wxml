@@ -1,0 +1,68 @@
+<view class="container">
+    <view class="wrap bg-fff">
+        <view class="title">入驻须知</view>
+        <view class="text">
+            本平台为用户提供最近的舞房，如果您是舞房的老板，欢迎您的加入，提交入驻后请加微信131XXXX，为了更好的提供优质服务，每家舞房入驻收取XXX元管理费。
+        </view>
+    </view>
+    <view class="bg-fff">
+        <form>
+            <view class="info">
+                <text class="fc-333">填写相关信息</text>
+            </view>
+            <view class="form-item">
+                <view class="label">舞房名称<i>*</i></view>
+                <view class="input">
+                    <input placeholder="请输入舞房名称，最长15字" maxlength="15"/>
+                </view>
+            </view>
+            <view class="form-item">
+                <view class="label">联系电话<i>*</i></view>
+                <view class="input">
+                    <input placeholder="请输入联系方式"  type="number"/>
+                </view>
+            </view>
+            <view class="form-item">
+                <view class="label">营业时间<i>*</i></view>
+                <view class="input">
+                    <input class="time" placeholder="0:00"/><span>至</span><input class="time" placeholder="24:00"/>
+                </view>
+            </view>
+            <view class="form-item">
+                <view class="label">舞房坐标<i>*</i></view>
+                <view class="input">
+                    <input placeholder="请输入联系方式"  type="number"/>
+                </view>
+            </view>
+            <view class="form-item">
+                <view class="label">详细地址<i>*</i></view>
+                <view class="input">
+                    <textarea placeholder="请输入详细地址"/>
+                </view>
+            </view>
+            <view class="form-item">
+                <view class="label">主要舞种<i>*</i></view>
+                <view class="input">
+                    <input placeholder="请输入主要舞种，以英文逗号间隔"/>
+                </view>
+            </view>
+            <view class="form-item">
+                <view class="label">舞房简介<i>*</i></view>
+                <view class="input">
+                    <textarea placeholder="请输入舞房简介，最少15个字" />
+                </view>
+            </view>
+            <view class="form-item">
+                <view class="label">舞房封面<i>*</i></view>
+                <view class="input">
+                    上传封面logo
+                </view>
+                <view class="upload">
+                    
+                </view> 
+            </view>
+        </form>
+    </view>
+    <button class="button">提交</button>
+    
+</view>

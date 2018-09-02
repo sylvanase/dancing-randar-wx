@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="info bg-fff">
+        <view class="avatar">
+            <i wx:if="{{userInfo.avatarUrl == null|| userInfo.avatarUrl == ''}}" class="iconfont icon-user"></i>
+            <image wx:if="{{userInfo.avatarUrl}}" src="{{userInfo.avatarUrl}}" />
+        </view>
+        <view class="name">
+            这里是用户昵称<i wx:if="{{userInfo.gender == 1}}" class="iconfont icon-man"></i>
+            <i wx:if="{{userInfo.gender == 2}}" class="iconfont icon-woman"></i>
+        </view>
+        <view class="sign fc-999">
+            这里是个人的签名，哟哟哟
+        </view>
+    </view>
+    <view class="setting-list bg-fff">
+        <view class="item home" bindtap="linkToEnter">
+            <i class="iconfont icon-home1"></i>我要入驻<i class="iconfont icon-right right"></i>
+        </view>
+        <view class="item comment" bindtap="linkToFeedback">
+            <i class="iconfont icon-comments"></i>我要反馈<i class="iconfont icon-right right"></i>
+        </view>
+        <view class="item remind" bindtap="linkToAbout">
+            <i class="iconfont icon-remind1"></i>关于我们<i class="iconfont icon-right right"></i>
+        </view>
+    </view> 
+    <!-- 底部tab -->
+    <view class="foot-tab">
+        <view class="left" bindtap="linkToHome">
+            <i class="iconfont icon-location"></i>
+        </view>
+        <view class="right">
+            <i class="iconfont icon-user"></i>
+        </view>
+    </view> 
+</view>

@@ -1,0 +1,43 @@
+/**app.wxss**/
+@import "./style/iconfont.wxss";
+.container {
+  height: 100%;
+} 
+
+page{
+	background-color: #e5e5e5;
+  height: 100%;
+  line-height: 1;
+}
+
+/* 通用字体颜色 */
+.fc-333{
+	color: #333;
+}
+
+.fc-999{
+	color: #999;
+}
+
+.fc-ac{
+	color: #acacac;
+}
+
+.fc-666{
+	color: #666;
+}
+
+.fc-888{
+	color: #888;
+}
+
+.bg-fff{
+	background-color: #fff;
+}
+
+/* 文本显示一行，超出省略 */
+.text-ellipsis{
+	overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

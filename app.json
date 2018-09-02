@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/user/enter/index",
+    "pages/index/index",
+    "pages/room/detail/index",
+    "pages/user/index",
+    "pages/user/feedback/index",
+    "pages/user/about/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#39393b",
+    "navigationBarTitleText": "街舞雷达",
+    "navigationBarTextStyle": "white"
+  }
+}
